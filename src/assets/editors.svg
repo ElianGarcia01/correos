@@ -1,0 +1,8 @@
+<svg aria-hidden="true" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.25 32.75H12V38.75C12 39.9931 13.0069 41 14.25 41H20.25V32.75Z" fill="#00832D"/>
+<path d="M20.25 8H14.25C13.0069 8 12 9.00688 12 10.25V16.25V24.5V32.75H20.25V24.5V16.25H27.75V8H20.25Z" fill="#FFBA00"/>
+<path d="M36 32.75H27.75V41H33.75C34.9931 41 36 39.9931 36 38.75V32.75Z" fill="#0066DA"/>
+<path d="M27.75 32.75H20.25V41H27.75V32.75Z" fill="#00AC47"/>
+<path d="M27.75 16.25V24.5V32.75H36V24.5V16.25H27.75Z" fill="#2684FC"/>
+<path d="M27.75 8V16.25H36L27.75 8Z" fill="#FE2C25"/>
+</svg>
