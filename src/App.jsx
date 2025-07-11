@@ -6,7 +6,9 @@ import routes from "./routes/routes";
 function App() {
 
 
-  const router = createBrowserRouter(routes);
+  const router = createBrowserRouter(routes, {
+    basename: "/ejemplo"
+  });
 
   return (
     <>

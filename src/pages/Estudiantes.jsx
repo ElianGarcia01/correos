@@ -1,6 +1,5 @@
 import { FaAngleDoubleDown, FaPhone } from "react-icons/fa";
 import SliderGoogle from "../components/SliderGoogle";
-import { FaWhatsapp } from "react-icons/fa6";
 
 const pasos = [
   {
@@ -97,7 +96,7 @@ export default function Estudiantes() {
             </div>
           ))}
           <a
-            href="/docs/infografia-estudiantes.pdf"
+            href="ejemplo/docs/infografia-estudiantes.pdf"
             download
             className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition"
           >
