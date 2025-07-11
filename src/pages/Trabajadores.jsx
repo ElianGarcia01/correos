@@ -76,9 +76,9 @@ const pasos = [
 
 export default function Trabajadores() {
   return (
-    <div className="w-full bg-[#f8fafc] text-gray-800 px-4 sm:px-8 md:px-12 lg:px-20 py-16">
+    <div className="w-full bg-[#f8fafc] text-gray-800 px-2 sm:px-8 md:px-12 lg:px-20 py-4">
       {/* TÍTULO PRINCIPAL */}
-      <header className="text-center mb-16">
+      <header className="text-center mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold text-[#192a48] mb-4">
           Activación del Correo Institucional para Trabajadores
         </h1>
@@ -128,18 +128,12 @@ export default function Trabajadores() {
               href="https://trabajadoresmail.uagro.mx/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#e53935] hover:bg-red-700 text-white font-bold px-8 py-3 rounded-full transition shadow-md"
+              className="inline-block bg-[#e53935] hover:bg-red-700 text-white font-bold px-8 py-2 rounded-full transition shadow-md"
             >
               Ir a Mesa de Ayuda
             </a>
           </div>
-        </div>
-      </div>
-
-      {/* Línea y contacto */}
-      <div className="my-16 border-t-3 border-[#e53935] rounded"></div>
-
-      <div className="text-center max-w-2xl mx-auto space-y-4 text-sm sm:text-base text-[#2e456e]">
+          <div className="text-center max-w-2xl mx-auto space-y-4 text-sm sm:text-base text-[#2e456e]">
         <p className="flex items-center justify-center gap-3 font-medium">
           <FaPhone className="text-[#192a48] text-2xl" />
           También ponemos a tu disposición nuestra línea telefónica:
@@ -150,8 +144,14 @@ export default function Trabajadores() {
         </p>
       </div>
 
+        </div>
+      </div>
+
+      {/* Línea y contacto */}
+      <div className="my-8 border-t-3 border-[#e53935] rounded"></div>
+
       {/* Slider de logos */}
-      <section className="max-w-6xl mx-auto px-6 sm:px-12 md:px-24 lg:px-48 py-12">
+      <section className="max-w-6xl mx-auto px-6 sm:px-12 md:px-24 lg:px-48 py-8">
         <SliderGoogle />
       </section>
     </div>

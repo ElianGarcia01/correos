@@ -20,8 +20,8 @@ function Footer() {
             <li className="flex items-start gap-3">
               <FaMapPin className="text-red-600 mt-1 text-xl flex-shrink-0" />
               <p>
-                Av. Javier Méndez Aponte 1, Fracc. Servidor Agrario, C.P. 39070
-                Chilpancingo de los Bravo, Gro.
+                Av. Javier Méndez Aponte 1, Fracc. Servidor Agrario,<br /> C.P. 39070
+                <br />Chilpancingo de los Bravo, Gro.
               </p>
             </li>
             <li className="flex items-center gap-3">

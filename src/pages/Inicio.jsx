@@ -64,7 +64,7 @@ export default function Inicio() {
       </section>
 
       {/* Información */}
-      <section className="max-w-5xl mx-auto text-center py-14 px-6 sm:px-10 lg:px-0">
+      <section className="max-w-5xl mx-auto text-center py-5 px-6 sm:px-10 lg:px-0">
         <h1 className="text-[#192a48] text-3xl sm:text-4xl font-extrabold mb-5 leading-tight">
           Correo Electrónico Institucional UAGro
         </h1>
@@ -77,7 +77,7 @@ export default function Inicio() {
       </section>
 
       {/* Botones de acceso (trabajadores/estudiantes) */}
-      <section className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 sm:px-12 py-8">
+      <section className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 sm:px-12 py-2">
         {accesos.map(({ titulo, ruta }) => (
           <div
             key={ruta}
@@ -97,7 +97,7 @@ export default function Inicio() {
       </section>
 
       {/* Slider de logos */}
-      <section className="max-w-6xl mx-auto px-6 sm:px-12 md:px-24 lg:px-48 py-12">
+      <section className="max-w-6xl mx-auto px-2 sm:px-12 md:px-24 lg:px-48 py-12">
         <SliderGoogle />
       </section>
     </div>
