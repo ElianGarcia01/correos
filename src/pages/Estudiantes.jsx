@@ -1,5 +1,6 @@
 import { FaAngleDoubleDown, FaPhone } from "react-icons/fa";
 import SliderGoogle from "../components/SliderGoogle";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const pasos = [
   {
@@ -67,9 +68,9 @@ const pasos = [
 
 export default function Estudiantes() {
   return (
-    <div className="w-full bg-[#f8fafc] text-gray-800 px-4 sm:px-8 md:px-12 lg:px-20 py-16">
+    <div className="w-full bg-[#f8fafc] text-gray-800 px-2 sm:px-8 md:px-12 lg:px-20 py-4">
       {/* TÍTULO PRINCIPAL */}
-      <header className="text-center mb-16">
+      <header className="text-center mb-5">
         <h1 className="text-3xl sm:text-4xl font-bold text-[#192a48] mb-4">
           Activación del Correo Institucional para Estudiantes
         </h1>
@@ -95,10 +96,17 @@ export default function Estudiantes() {
               </p>
             </div>
           ))}
+          <a
+            href="/docs/infografia-estudiantes.pdf"
+            download
+            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition"
+          >
+            Descargar Infografía
+          </a>
         </div>
 
         {/* Video + ayuda */}
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-3">
           <div className="rounded-xl overflow-hidden shadow-lg aspect-video">
             <iframe
               src="https://www.youtube.com/embed/IkODhwMhqTM"
@@ -113,36 +121,36 @@ export default function Estudiantes() {
           <div className="text-center space-y-2">
             <h3 className="text-2xl font-semibold text-[#2e456e] flex flex-col justify-center items-center gap-2">
               Mesa de ayuda para recuperar contraseña
-              <FaAngleDoubleDown className="text-[#e53935] text-4xl animate-bounce" />
+              <FaAngleDoubleDown className="text-[#e53935] text-3xl animate-bounce" />
             </h3>
             <a
               href="https://www.recuperacorreo.uagro.mx/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#e53935] hover:bg-red-700 text-white font-bold px-8 py-3 rounded-full transition shadow-md"
+              className="inline-block bg-[#e53935] hover:bg-red-700 text-white font-bold px-8 py-2 rounded-full transition shadow-md"
             >
               Ir a Mesa de Ayuda
             </a>
           </div>
+
+          {/* Teléfono */}
+          <div className="text-center mt-10 max-w-2xl mx-auto space-y-8 text-sm sm:text-base text-[#2e456e]">
+            <p className="flex items-center justify-center gap-3 font-medium">
+              <FaPhone className="text-[#192a48] text-2xl" />
+              También ponemos a tu disposición nuestra línea telefónica:
+            </p>
+            <p>
+              <strong>Tel: 747 47 193 10 ext. 4199</strong> <br />
+              Horario: <strong>Lunes a Viernes de 9:00 a 17:00 hrs</strong>
+            </p>
+          </div>
         </div>
       </div>
 
-      {/* Línea y contacto */}
-      <div className="my-16 border-t-3 border-[#e53935] rounded"></div>
+      {/* Línea y slider */}
+      <div className="mt-15 border-t-3 border-[#e53935] rounded"></div>
 
-      <div className="text-center max-w-2xl mx-auto space-y-4 text-sm sm:text-base text-[#2e456e]">
-        <p className="flex items-center justify-center gap-3 font-medium">
-          <FaPhone className="text-[#192a48] text-2xl" />
-          También ponemos a tu disposición nuestra línea telefónica:
-        </p>
-        <p>
-          <strong>Tel: 747 47 193 10 ext. 4199</strong> <br />
-          Horario: <strong>Lunes a Viernes de 9:00 a 17:00 hrs</strong>
-        </p>
-      </div>
-
-      {/* Slider de logos */}
-      <section className="max-w-6xl mx-auto px-6 sm:px-12 md:px-24 lg:px-48 py-12">
+      <section className="max-w-6xl mx-auto px-6 sm:px-12 md:px-24 lg:px-48 py-8">
         <SliderGoogle />
       </section>
     </div>

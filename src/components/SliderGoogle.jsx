@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 
 // Importación de íconos
 import admin from "../assets/admin.svg?url";
@@ -42,14 +41,13 @@ const images = [
 
 export default function ImageSlider() {
   return (
-    <section className="py-10 px-4 sm:px-8 lg:px-16">
+    <section className="py-5 px-4 sm:px-8 lg:px-16">
       <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-8 text-center">
         Google for Education
       </h2>
 
       <Swiper
-        modules={[Navigation, Autoplay]}
-        navigation
+        modules={[Autoplay]}
         autoplay={{ delay: 2500 }}
         loop={true}
         spaceBetween={16}

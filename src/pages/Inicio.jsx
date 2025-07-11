@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Link } from "react-router-dom";
 import SliderGoogle from "../components/SliderGoogle";
@@ -35,10 +34,10 @@ export default function Inicio() {
         />
 
         <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
+          modules={[Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
-          navigation
+          
           pagination={{ clickable: true }}
           autoplay={{ delay: 3500 }}
           loop
