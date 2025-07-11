@@ -6,9 +6,7 @@ import routes from "./routes/routes";
 function App() {
 
 
-  const router = createBrowserRouter(routes, {
-    basename: "/ejemplo"
-  });
+  const router = createBrowserRouter(routes)
 
   return (
     <>
@@ -17,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

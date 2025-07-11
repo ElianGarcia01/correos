@@ -96,7 +96,7 @@ export default function Estudiantes() {
             </div>
           ))}
           <a
-            href="ejemplo/docs/infografia-estudiantes.pdf"
+            href="docs/infografia-estudiantes.pdf"
             download
             className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition"
           >
